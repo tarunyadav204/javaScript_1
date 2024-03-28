@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>::before Selector Example</title>
+    <style>
+        .custom-element::before {
+            content: "Before";
+            display: block;
+            color: red;
+            font-weight: bold;
+        }
+        .custom-element::after {
+            content: "after";
+            display: block;
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="custom-element">Element</div>
+</body>
+</html>
